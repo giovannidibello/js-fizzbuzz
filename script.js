@@ -20,8 +20,9 @@ for (let i = 1; i <= 100; i++) {
         // stampo Buzz
         console.log("Buzz"); 
     }    
-    // ALTRIMENTI stampa il numero di iterazioni
+    // ALTRIMENTI 
     else {
+        // stampa il numero di iterazioni
         console.log(i);
     }      
 
