@@ -2,9 +2,34 @@
 // Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 // creo un ciclo for per i numeri da 1 a 100
-    // SE è un multiplo di 3
-    // stampo Fizz
-    // SE è un multiplo di 5 
-    // stampo Buzz
+
+for (let i = 1; i <= 100; i++) {
+
     // Se è un multiplo sia di 3 che di 5
-    // stampo FizzBuzz
+    if (i % 3 === 0 && i % 5 === 0) {
+        // stampo FizzBuzz
+        console.log("FizzBuzz"); 
+    }
+    // SE è un multiplo di 3
+    else if (i % 3 === 0) {
+        // stampo Fizz
+        console.log("Fizz");        
+    }
+    // SE è un multiplo di 5 
+    else if (i % 5 === 0) {
+        // stampo Buzz
+        console.log("Buzz"); 
+    }    
+    // ALTRIMENTI stampa il numero di iterazioni
+    else {
+        console.log(i);
+    }      
+
+}
+
+    
+    
+    
+    
+    
+    
