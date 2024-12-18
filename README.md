@@ -5,9 +5,11 @@ Esercizio FizzBuzz
 // Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 // creo un ciclo for per i numeri da 1 a 100
+    // Se è un multiplo sia di 3 che di 5
+    // stampo FizzBuzz
     // SE è un multiplo di 3
     // stampo Fizz
     // SE è un multiplo di 5 
     // stampo Buzz
-    // Se è un multiplo sia di 3 che di 5
-    // stampo FizzBuzz
+    // ALTRIMENTI stampa il numero di iterazioni
+    
